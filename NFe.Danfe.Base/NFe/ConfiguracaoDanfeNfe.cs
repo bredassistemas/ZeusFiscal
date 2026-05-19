@@ -41,6 +41,7 @@ namespace NFe.Danfe.Base.NFe
             DecimaisValorUnitario = 2;
             DecimaisQuantidadeItem = 2;
             DataHoraImpressao = null;
+            EsconderValor = false;
         }
 
         public bool DuasLinhas { get; set; }
@@ -72,5 +73,7 @@ namespace NFe.Danfe.Base.NFe
         public int DecimaisQuantidadeItem { get; set; }
 
         public DateTime? DataHoraImpressao { get; set; }
+
+        public bool EsconderValor { get; set; }
     }
 }
